@@ -1,7 +1,14 @@
+import { Body } from './Body'
+import { Header } from './Header'
+import './global.css'
+
 function App() {
 
   return (
-    <p>Hello World</p>
+    <>
+      <Header />
+      <Body />
+    </>
   )
 }
 

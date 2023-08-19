@@ -1,0 +1,9 @@
+.addTaskContainer {
+  width: 736px;
+}
+
+.taskInput {
+  width: 638px;
+  height: 54px;
+  background-color: var(--gray-500);
+}
