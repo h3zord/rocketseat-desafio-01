@@ -1,3 +1,16 @@
 .tasksCount {
-  
+  width: 736px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.tasksCount span:nth-child(1) {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.tasksCount span:nth-child(2) {
+  color: var(--purple);
+  font-weight: bold;
 }

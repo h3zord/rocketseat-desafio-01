@@ -4,7 +4,9 @@
   --gray-500: #262626;
   --gray-400: #333333;
   --gray-300: #808080;
+  --blue: #4ea8de;
   --blue-dark: #1e6f9f;
+  --purple: #8284fa;
   --purple-dark: #5e60ce;
 }
 
@@ -14,7 +16,7 @@
   box-sizing: border-box;
 }
 
-body, input, textarea, button {
+body, input, textarea, button, span {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
 }
