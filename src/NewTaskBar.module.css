@@ -1,9 +1,38 @@
-.addTaskContainer {
+.addNewTask {
   width: 736px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -27px;
 }
 
-.taskInput {
+.addNewTask input {
   width: 638px;
   height: 54px;
   background-color: var(--gray-500);
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 1px 5px 2px black;
+  padding-left: 10px;
+  color: white;
 }
+
+.addNewTask input:focus {
+  box-shadow: 0 0 0 1px var(--purple-dark);
+}
+
+.addNewTask button {
+  width: 90px;
+  background-color: var(--blue-dark);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 1px 5px 1px black;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+

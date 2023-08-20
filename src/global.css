@@ -4,10 +4,21 @@
   --gray-500: #262626;
   --gray-400: #333333;
   --gray-300: #808080;
+  --blue-dark: #1e6f9f;
+  --purple-dark: #5e60ce;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body, input, textarea, button {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+
+:focus {
+  outline: transparent;
 }
