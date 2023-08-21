@@ -10,7 +10,7 @@ export function Tasks() {
           <label htmlFor="teste">Test</label>
         </div>
         <button>
-          <Trash size={24} color='#808080'/>
+          <Trash size={22}/>
         </button>
       </div>
     </section>

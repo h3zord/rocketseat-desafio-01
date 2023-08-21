@@ -17,6 +17,15 @@
 .task button {
   background-color: transparent;
   border: none;
+  line-height: 0;
+  padding: 3px;
+  color: var(--gray-300)
+}
+
+.task button:hover {
+  background-color: var(--gray-400);
+  border-radius: 4px;
+  color: var(--danger);
 }
 
 .taskContent label {
@@ -25,4 +34,7 @@
   color: white;
 }
 
-
+.taskContent input:checked + label{
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
