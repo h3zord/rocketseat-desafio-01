@@ -1,27 +1,45 @@
-# React + TypeScript + Vite
+<h1 align="center">Boas-vindas ao repositório do To Do!</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## O que foi desenvolvido?
 
-Currently, two official plugins are available:
+O <strong>To Do</strong> é uma aplicação simples, desenvolvida com o propósito central de otimizar a organização de tarefas a serem realizadas. Com ele, você pode adicionar e remover tarefas de forma descomplicada, além de contar com a funcionalidade de marcar as atividades como concluídas, proporcionando uma experiência de gerenciamento de tarefas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Linguagens e ferramentas:
+- React
+- Typescript
+- CSS
 
-## Expanding the ESLint configuration
+## Instalação e execução
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### 1 - Clone o repositório:
+```
+git clone git@github.com:h3zord/rocketseat-desafio-01.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2 - Entre no repositório:
+```
+cd rocketseat-desafio-01
+```
+
+### 3 - Instale as dependências:
+Caso utilize o npm
+```
+npm install
+```
+Caso utilize o yarn
+```
+yarn install
+```
+
+### 4 - Inicie o projeto:
+Caso utilize o npm
+```
+npm run dev
+```
+Caso utilize o yarn
+```
+yarn run dev
+```
+<strong>O React irá executar a aplicação na porta padrão 5173.</strong>
+<br/>
+➜ http://localhost:5173/
