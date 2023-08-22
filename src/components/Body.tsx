@@ -21,7 +21,7 @@ export function Body() {
 
     setTaskList((state) => {
       event.target.inputTask.value = '';
-      return [...state, newTask]
+      return [newTask, ...state]
     })
   }
 
