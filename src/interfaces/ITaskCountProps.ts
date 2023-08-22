@@ -1,4 +1,4 @@
-import { ITaskList } from "./ITaskList";
+import { ITaskList } from './ITaskList'
 
 export interface ITaskCountProps {
   taskList: ITaskList[]

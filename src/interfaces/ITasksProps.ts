@@ -1,7 +1,7 @@
-import { ITaskList } from "./ITaskList";
+import { ITaskList } from './ITaskList'
 
 export interface ITaskProps {
-  taskList: ITaskList[],
+  taskList: ITaskList[]
   deleteTask: (id: string) => void
   doneTask: (id: string) => void
 }
