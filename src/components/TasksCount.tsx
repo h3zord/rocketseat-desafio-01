@@ -1,6 +1,7 @@
+import { ITaskCountProps } from '../interfaces/ITaskCountProps';
 import styles from './TasksCount.module.css';
 
-export function TasksCount({ taskList }) {
+export function TasksCount({ taskList }: ITaskCountProps) {
 
   function countDoneTasks(): string {
     const doneTasks = taskList.reduce((index, task) => {      

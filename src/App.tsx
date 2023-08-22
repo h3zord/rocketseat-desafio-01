@@ -1,6 +1,6 @@
-import { Body } from './Body'
-import { Header } from './Header'
-import './global.css'
+import './global.css';
+import { Body } from './components/Body';
+import { Header } from './components/Header';
 
 function App() {
 

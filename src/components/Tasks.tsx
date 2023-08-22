@@ -1,7 +1,8 @@
+import { ITaskProps } from '../interfaces/ITasksProps';
 import styles from './Tasks.module.css';
 import { Trash } from '@phosphor-icons/react'
 
-export function Tasks({ taskList, deleteTask, doneTask }) {
+export function Tasks({ taskList, deleteTask, doneTask }: ITaskProps) {
   return (
     <section className={ styles.tasksList }>
         {
