@@ -30,7 +30,7 @@ export function Body() {
     setTaskList(newTaskList);
   }
 
-  function doneTask(id: string) {
+  function doneTask(id: string): void {
   
     const updatedTasks = taskList.map((task) => {
       if (task.id === id) {

@@ -7,7 +7,10 @@ export function Tasks({ taskList, deleteTask, doneTask }) {
         {
           taskList.map(({ id, content }) => {
             return (
-              <div className={ styles.task }>
+              <div
+                key={ id }
+                className={ styles.task }
+              >
                 <div className={ styles.taskContent }>
                   <label
                     htmlFor={ id }

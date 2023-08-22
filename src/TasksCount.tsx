@@ -2,7 +2,7 @@ import styles from './TasksCount.module.css';
 
 export function TasksCount({ taskList }) {
 
-  function countDoneTasks() {
+  function countDoneTasks(): string {
     const doneTasks = taskList.reduce((index, task) => {      
       if (task.isDone) return index + 1;
       return index;
