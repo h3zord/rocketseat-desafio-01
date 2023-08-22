@@ -1,18 +1,39 @@
 .tasksCount {
   width: 736px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-top: 75px;
 }
 
-.tasksCount span:nth-child(1) {
+.tasksCount p:nth-child(1) {
   color: var(--blue);
   font-weight: bold;
   font-size: 0.875rem;
 }
 
-.tasksCount span:nth-child(2) {
+.tasksCount p:nth-child(1) span {
+  background-color: var(--gray-400);
+  width: 24px;
+  height: 19px;
+  padding: 2px 12px;
+  border-radius: 10px;
+  color: var(--gray-200);
+  margin-left: 5px;
+}
+
+.tasksCount p:nth-child(2) {
   color: var(--purple);
   font-weight: bold;
   font-size: 0.875rem;
+}
+
+.tasksCount p:nth-child(2) span {
+  background-color: var(--gray-400);
+  width: 24px;
+  height: 19px;
+  padding: 2px 12px;
+  border-radius: 10px;
+  color: var(--gray-200);
+  margin-left: 5px;
 }

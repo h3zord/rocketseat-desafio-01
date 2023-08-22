@@ -1,10 +1,21 @@
 import styles from './TasksCount.module.css';
 
-export function TasksCount() {
+export function TasksCount({ taskList }) {
+
+  function countDoneTasks() {
+    const doneTasks = taskList.reduce((index, task) => {      
+      if (task.isDone) return index + 1;
+      return index;
+    }, 0)
+    
+
+    return `${doneTasks} de ${taskList.length}`;
+  }  
+
   return (
     <section className={ styles.tasksCount }>
-      <span>Tarefas criadas 0</span>
-      <span>Tarefas concluídas 0</span>
+      <p>Tarefas criadas <span>{ taskList.length }</span></p>
+      <p>Tarefas concluídas <span>{ taskList.length ? countDoneTasks() : 0 }</span></p>
     </section>
   )
 }

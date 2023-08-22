@@ -4,14 +4,14 @@
 }
 
 .task {
-  height: 25px;
   border-radius: 8px;
   border: 2px solid var(--gray-400);
   background-color: var(--gray-500);
   display: flex;
-  align-items: center;
-  padding: 25px;
+  align-items: flex-start;
+  padding: 15px;
   justify-content: space-between;
+  margin-bottom: 12px;
 }
 
 .task button {
@@ -28,13 +28,22 @@
   color: var(--danger);
 }
 
+.taskContent {
+  width: 632px;
+  margin-top: 5px;
+}
+
 .taskContent label {
   margin-left: 10px;
   font-size: 0.875rem;
-  color: white;
+  color: var(--gray-100);
+  margin-bottom: 2px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-.taskContent input:checked + label{
+.taskContent input:checked + label {
   text-decoration: line-through;
   color: var(--gray-300);
 }
