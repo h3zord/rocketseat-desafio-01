@@ -13,12 +13,12 @@ O <strong>To Do</strong> é uma aplicação simples, desenvolvida com o propósi
 
 ### 1 - Clone o repositório:
 ```
-git clone git@github.com:h3zord/rocketseat-desafio-01.git
+git clone git@github.com:h3zord/todo.git
 ```
 
 ### 2 - Entre no repositório:
 ```
-cd rocketseat-desafio-01
+cd todo
 ```
 
 ### 3 - Instale as dependências:
