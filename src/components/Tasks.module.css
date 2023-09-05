@@ -45,7 +45,8 @@
   word-break: break-all;
 }
 
-.taskContent input:checked + label {
+label input:checked + span {
   text-decoration: line-through;
   color: var(--gray-300);
 }
+

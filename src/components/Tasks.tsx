@@ -9,9 +9,9 @@ export function Tasks({ taskList, deleteTask, doneTask }: ITaskProps) {
         return (
           <div key={id} className={styles.task}>
             <div className={styles.taskContent}>
-              <label htmlFor={id} onChange={() => doneTask(id)}>
-                <input type="checkbox" id={id} />
-                {content}
+              <label htmlFor={id}>
+                <input type="checkbox" id={id} onChange={() => doneTask(id)} />
+                <span>{content}</span>
               </label>
             </div>
             <button type="button" onClick={() => deleteTask(id)}>
